@@ -1,0 +1,48 @@
+# ------------------------
+# Node / Next.js (client)
+client/node_modules
+client/.pnp
+client/.pnp.*
+client/.yarn/*
+!client/.yarn/patches
+!client/.yarn/plugins
+!client/.yarn/releases
+!client/.yarn/versions
+client/coverage
+client/.next/
+client/out/
+client/build
+client/.vercel
+client/next-env.d.ts
+client/*.tsbuildinfo
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/.pnpm-debug.log*
+
+# ------------------------
+# Python (server)
+server/__pycache__/
+server/*.py[cod]
+server/.Python
+server/env/
+server/venv/
+server/.venv/
+server/pip-log.txt
+server/pip-delete-this-directory.txt
+server/*.egg-info/
+server/dist/
+server/build/
+server/.mypy_cache/
+server/.pytest_cache/
+server/.coverage
+server/.tox/
+server/.ruff_cache/
+server/.idea
+server/.vscode
+
+# ------------------------
+# Shared (both)
+.DS_Store
+*.pem
+.env*
