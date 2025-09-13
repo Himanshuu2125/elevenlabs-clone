@@ -21,29 +21,29 @@ client/yarn-error.log*
 client/.pnpm-debug.log*
 
 # ------------------------
-# Python (server)
-server/__pycache__/
-server/*.py[cod]
-server/.Python
-server/env/
-server/venv/
-server/.venv/
-server/pip-log.txt
-server/pip-delete-this-directory.txt
-server/*.egg-info/
-server/dist/
-server/build/
-server/.mypy_cache/
-server/.pytest_cache/
-server/.coverage
-server/.tox/
-server/.ruff_cache/
-server/.idea
-server/.vscode
+# Python (api)
+api/__pycache__/
+api/*.py[cod]
+api/.Python
+api/.env/
+api/venv/
+api/.venv/
+api/pip-log.txt
+api/pip-delete-this-directory.txt
+api/*.egg-info/
+api/dist/
+api/build/
+api/.mypy_cache/
+api/.pytest_cache/
+api/.coverage
+api/.tox/
+api/.ruff_cache/
 
 # ------------------------
-# Shared (both)
+# Shared / OS / IDE
 .DS_Store
 *.pem
 .env*
 assignment/
+.vscode/
+.idea/
