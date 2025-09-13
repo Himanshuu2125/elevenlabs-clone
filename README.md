@@ -1,4 +1,4 @@
-# Audio Streaming Application
+# ElevenLabs Clone
 
 This project is a full-stack application designed for streaming audio, featuring a Next.js frontend and a Python FastAPI backend. Audio files are stored and served from a MongoDB database using GridFS.
 
