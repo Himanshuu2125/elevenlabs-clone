@@ -28,7 +28,7 @@ export function PlayButton({ selected }: PlayButtonProps) {
     // Load new audio
     setStatus("loading");
     try {
-      const response = await fetch(`http://localhost:8000/get-audio/${selected}`);
+      const response = await fetch(`/get-audio/${selected}`);
       if (!response.ok) {
         alert("Audio not found");
         setStatus("idle");
