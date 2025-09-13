@@ -2,31 +2,31 @@
 
 @font-face {
   font-family: 'Waldenburg-condensed-bold';
-  src: url('/fonts/KMRwaldenburg-SemiCondensedBold.ttf') format('truetype');
+  src: url('/fonts/KMRWaldenburg-SemiCondensedBold.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Waldenburg-condensed';
-  src: url('/fonts/KMRwaldenburg-SemiCondensed.ttf') format('truetype');
+  src: url('/fonts/KMRWaldenburg-SemiCondensed.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Waldenburg-regular';
-  src: url('/fonts/KMRwaldenburg-Regular.ttf') format('truetype');
+  src: url('/fonts/KMRWaldenburg-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Waldenburg-medium';
-  src: url('/fonts/KMRwaldenburg-Medium.ttf') format('truetype');
+  src: url('/fonts/KMRWaldenburg-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Waldenburg-bold';
-  src: url('/fonts/KMRwaldenburg-Bold.ttf') format('truetype');
+  src: url('/fonts/KMRWaldenburg-Bold.ttf') format('truetype');
 }
 
 .font-w-r {
