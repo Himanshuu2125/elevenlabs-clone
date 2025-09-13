@@ -6,7 +6,7 @@ export default function Home() {
   const [language, setLanguage] = useState("ENGLISH");
   const [selectedFeature, setSelectedFeature] = useState("TEXT TO SPEECH");
   return (
-    <div className="flex items-center flex-col px-5">
+    <div className="flex items-center flex-col px-3">
       <div className="flex justify-around mt-2 items-center w-full">
         <div className="text-2xl p-2 font-w-c-b">IIElevenLabs</div>
         <div className="hidden lg:flex">
@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div>
           <button className="rounded-full px-3 py-1 font-w-m mx-1 whitespace-nowrap cursor-pointer hover:bg-[#e5e5e5]">Log In</button>
-          <button className="bg-black py-1 px-3 mx-1 font-w-m text-white rounded-full whitespace-nowrap cursor-pointer hover:bg-[#6e6e6e]">Sign Up</button>
+          <button className="bg-black py-1 px-3 ml-1 font-w-m text-white rounded-full whitespace-nowrap cursor-pointer hover:bg-[#6e6e6e]">Sign Up</button>
 
         </div>
       </div>
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="flex flex-col max-w-250 w-[100%] bg-[#e8e8e8] h-143 mt-5 rounded-2xl mb-10 relative">
             <div className="flex justify-around w-[100%] z-20 bottom-3 absolute font-w-b">Powered by Eleven v3 (alpha)</div>
             <div className="grad h-70 w-[50%] absolute z-10 bottom-0 right-0 rounded-2xl"></div>
-            <div className="flex flex-col  bg-[#ffffff] h-130 rounded-2xl absolute top-[5px] left-[6px] right-[6px] px-5 pt-3 font-w-b  justify-between z-20">
+            <div className="flex flex-col  bg-[#ffffff] h-130 rounded-2xl absolute top-[5px] left-[6px] right-[6px] px-2 pt-3 font-w-b  justify-between z-20">
               <textarea
                 placeholder="Type your text here..."
                 className="w-full h-100 resize-none rounded-lg p-3 text-[#333] font-normal outline-none focus:outline-none focus:ring-0 focus:border-0 border-0"
@@ -121,7 +121,7 @@ export default function Home() {
                     <div className="flex">
                       
                         <PlayButton selected={language}/>
-                      <div className="flex items-center px-[13px] ml-5 border rounded-full">
+                      <div className="flex items-center px-[13px] ml-2 border rounded-full">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"><path fill="currentColor" fillRule="evenodd" d="M10 2.5c.46 0 .833.373.833.833v6.739l1.494-1.495a.833.833 0 1 1 1.179 1.179l-2.917 2.917a.833.833 0 0 1-1.178 0L6.494 9.756a.833.833 0 1 1 1.179-1.179l1.494 1.495V3.333c0-.46.373-.833.833-.833m-6.667 9.167c.46 0 .834.373.834.833v3.333h11.666V12.5a.833.833 0 0 1 1.667 0v4.167c0 .46-.373.833-.833.833H3.333a.833.833 0 0 1-.833-.833V12.5c0-.46.373-.833.833-.833" clipRule="evenodd"></path></svg>
                       </div>
                       

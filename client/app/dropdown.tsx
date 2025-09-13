@@ -139,7 +139,7 @@ export function Dropdown({ selected, setSelected }: DropdownProps) {
                 setSelected(option);
                 setOpen(false);
               }}
-              className={`px-6 rounded-2xl py-2 mx-2 my-1 cursor-pointer hover:bg-gray-100 whitespace-nowrap ${
+              className={`px-6 rounded-2xl py-2 mx-1 my-1 cursor-pointer hover:bg-gray-100 whitespace-nowrap ${
                 option === selected ? "bg-gray-200 font-bold" : ""
               }`}
             >
